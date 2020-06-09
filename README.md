@@ -41,7 +41,7 @@ $ docker run -it --rm \
     build overlays/staging
 ```
 
-The generated Kubernetes configuration
+The generated Kubernetes configuration will be printed o stdout which can be saved to a file or piped to kubectl: `| kubectl apply -f -`.
 
 ## LICENSE
 
